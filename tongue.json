@@ -187,11 +187,6 @@
           "effects": [],
           "behaviors": [
             {
-              "checkCollisionMask": true,
-              "name": "Draggable",
-              "type": "DraggableBehavior::Draggable"
-            },
-            {
               "acceleration": 800,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -442,16 +437,6 @@
             },
             {
               "type": {
-                "inverted": true,
-                "value": "DraggableBehavior::Dragged"
-              },
-              "parameters": [
-                "player",
-                "Draggable"
-              ]
-            },
-            {
-              "type": {
                 "value": "ObjectVariableAsBoolean"
               },
               "parameters": [
@@ -468,15 +453,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "AjoutObjConcern"
-              },
-              "parameters": [
-                "",
-                "player"
-              ]
-            },
             {
               "type": {
                 "value": "ModVarObjet"
